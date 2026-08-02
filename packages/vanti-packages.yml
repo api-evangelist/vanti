@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/vanti/json
+note: >-
+  Registry sweep (npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems,
+  Packagist, crates.io) found no first-party client libraries. The single
+  PyPI package "vanti" (0.0.1, "A small example package") was published from
+  a vanti-analytics.com email address but is a packaging sample, not an SDK.
+  The company's web presence has lapsed (vanti-analytics.com is parked by a
+  squatter as of 2026-07-21), so no official packages are expected.
+packages:
+  - language: python
+    registry: pypi
+    name: vanti
+    url: https://pypi.org/project/vanti/
+    install: pip install vanti
+    official: false
+    version: 0.0.1
+    description: A small example package (publisher email tal@vanti-analytics.com; not a client SDK)

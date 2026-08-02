@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.vanti-analytics.com
+note: >-
+  The vanti-analytics.com domain has lapsed and is no longer operated by
+  Vanti Analytics: www serves a FASTPANEL hosting-panel parked page, the apex
+  redirects to an unrelated site, and vanti.ai is parked for sale on Afternic
+  (probed 2026-07-21). Every path below returned a soft-200 catch-all with
+  the same parked-page HTML (title "FASTPANEL"), so no real well-known
+  documents exist and none were saved. Former subdomains app./support./docs./
+  api.vanti-analytics.com no longer resolve.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not a security.txt)
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not JSON)
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not JSON)
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not a catalog)
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not JSON)
+  - path: /llms.txt
+    status: 200
+    soft_200: true
+    content: FASTPANEL parked-page HTML (not an llms.txt)

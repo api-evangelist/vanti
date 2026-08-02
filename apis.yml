@@ -1,19 +1,47 @@
 aid: vanti
-name: vanti
-description: vanti is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Vanti Analytics
+description: Vanti Analytics was an Israeli adaptive-AI-for-manufacturing company backed by Insight
+  Partners, offering AI-based defect detection, early fault prediction, predictive quality, and
+  process tuning across production lines via a hosted application (app.vanti-analytics.com). The
+  company published no public API, OpenAPI spec, SDKs, or developer program, and as of 2026-07-21
+  it has no live web presence - vanti-analytics.com has lapsed and is parked by a third party,
+  vanti.ai is for sale, and the former app/support/docs subdomains no longer resolve.
 url: https://raw.githubusercontent.com/api-evangelist/vanti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/56925010
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: domain-lapsed
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- Machine Learning
+- Predictive Quality
+- Defect Detection
+- Industrial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vanti-domain-security.yml
 - type: Website
   url: https://www.vanti-analytics.com/
+- type: Packages
+  url: packages/vanti-packages.yml
+- type: LLMsTxt
+  url: llms/vanti-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/vanti-analytics
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vanti-analytics

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+note: >-
+  The vanti-analytics.com domain has lapsed and is no longer operated by
+  Vanti Analytics (www serves a FASTPANEL parked page; the apex redirects to
+  an unrelated site). These probe results describe the current squatter
+  hosting, not company-operated infrastructure.
+hosts:
+- host: www.vanti-analytics.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 30 23:06:45 2026 GMT
+  hsts: false
+domains:
+- domain: vanti-analytics.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

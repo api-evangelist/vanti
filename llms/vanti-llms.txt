@@ -1,0 +1,19 @@
+# Vanti (Vanti Analytics)
+
+> Vanti Analytics was an adaptive-AI-for-manufacturing company (defect detection, early fault prediction, predictive quality, process tuning) backed by Insight Partners. As of 2026-07-21 the company has no live web or API presence: vanti-analytics.com has lapsed and is parked by a third party, vanti.ai is for sale, and the former app/support subdomains no longer resolve. No public API, OpenAPI spec, SDKs, or developer program were ever published; the product was accessed through a hosted application at app.vanti-analytics.com.
+
+This profile is maintained by API Evangelist / APIs.io as part of the Insight Partners portfolio graph. Generated from the catalog record; there is no provider-published llms.txt.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/vanti/refs/heads/main/apis.yml): Catalog record for Vanti
+- [GitHub organization](https://github.com/vanti-analytics): Vanti Analytics org (no public repositories)
+- [LinkedIn](https://www.linkedin.com/company/vanti-analytics): Company LinkedIn page
+
+## Historical record
+
+- [Archived website (2022)](https://web.archive.org/web/20220429163558/https://www.vanti-analytics.com/): "Scalable AI for Manufacturing | Vanti Analytics"
+
+## APIs
+
+None. No public API surface was found (searched 2026-07-21).
