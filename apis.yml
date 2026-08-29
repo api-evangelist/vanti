@@ -7,6 +7,17 @@ description: Vanti Analytics was an Israeli adaptive-AI-for-manufacturing compan
   it has no live web presence - vanti-analytics.com has lapsed and is parked by a third party,
   vanti.ai is for sale, and the former app/support/docs subdomains no longer resolve.
 url: https://raw.githubusercontent.com/api-evangelist/vanti/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
