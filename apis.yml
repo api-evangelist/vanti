@@ -49,7 +49,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Manufacturing
-- Machine-Learning
+- Machine Learning
 - Predictive Quality
 - Defect Detection
 - Industrial
@@ -61,6 +61,7 @@ tags_raw:
 - Predictive Quality
 - Defect Detection
 - Industrial
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
